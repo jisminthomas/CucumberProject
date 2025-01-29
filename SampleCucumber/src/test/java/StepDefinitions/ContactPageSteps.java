@@ -25,7 +25,7 @@ public class ContactPageSteps {
 		public void verify_Createbutton_ExportButton() throws InterruptedException 
 		{
 			cp.verifyContactPage();
-			cp.selectDropdown();
+			cp.selectContactPageValues();
 		}
 	
 }
