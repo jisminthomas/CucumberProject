@@ -31,6 +31,7 @@ public class HomePage extends TestBase{
 	public CalendarPage clickCalendartButton()
 	{
 		driver.findElement(By.xpath("//span[contains(text(),'Calendar')]")).click();
+		System.out.println();
 		return new CalendarPage();
 	}
 	
