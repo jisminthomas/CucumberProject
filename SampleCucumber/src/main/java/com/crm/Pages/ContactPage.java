@@ -33,7 +33,8 @@ public class ContactPage extends TestBase{
 	
 	Thread.sleep(4000);
 	driver.findElement(By.xpath("//div[@class='ui basic icon left attached button']")).click();
-	//driver.close();
+	Thread.sleep(4000);
+	driver.close();
 		
 	}
 }
