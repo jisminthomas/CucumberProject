@@ -16,6 +16,7 @@ public class LaunchPage extends TestBase
 	
 	public LoginPage navigateToLoginPage()
 	{
+		//Thread.sleep(3000);
 		driver.findElement(By.xpath("//a[contains(text(),'Login')]")).click();
 		return new LoginPage();
 		

@@ -17,19 +17,21 @@
 ## (Comments)
 #Sample Feature Definition Template
 
+@tag
+Feature: Contact page validation
 
-   @tag
-Feature: Login Feature verification
- 
 
   @tag1
-  Scenario Outline: Verify user is able to login to the application
-  
+  Scenario Outline: Verify navigation to Contact page and fields in Contact page
     Given Application is launched
-     When User enters <id> and <password> and click login button
+    When User enters <id> and <password> and click login button
     Then User is navigated to the Home page
+    When User clicks on Contact button
+    Then Verify Create button and Export button is present in Contact page
     
-  
-     Examples: 
-      |id|password| 
-      |jisminthomas@gmail.com|January|
+ 
+
+      Examples: 
+      | id | password | 
+      | jisminthomas@gmail.com | January |
+     

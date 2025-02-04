@@ -26,10 +26,10 @@ Feature: Login Feature verification
   Scenario Outline: Verify user is able to login to the application
   
     Given Application is launched
-     When User enters <id> and <password> and click login button
+    When User enters <id> and <password> and click login button
     Then User is navigated to the Home page
     
   
      Examples: 
-      |id|password| 
-      |jisminthomas@gmail.com|January|
+      | id | password | 
+      | jisminthomas@gmail.com | January |

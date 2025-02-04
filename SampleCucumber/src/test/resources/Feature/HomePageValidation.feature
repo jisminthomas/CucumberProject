@@ -22,12 +22,12 @@ Feature: Home Page verification
   @tag1
   Scenario Outline: Verify navigation to Homepage and fields in Homepage
     Given Application is launched
-    When User enters <id> and <password> and click log in  button
+    When User enters <id> and <password> and click login button
     Then User is navigated to the Home page
     When User clicks on Calendar button
     Then Verify Events button and Create button is present in Calendar page
 
       Examples: 
       |id|password| 
-      |jisminthomas@gmail.com|Password*1|
+      |jisminthomas@gmail.com|January|
      

@@ -22,7 +22,7 @@ public class LoginStepDefinition
 		lp.verifyApplicationLaunchPage();
 	}
 
-	@When("^User enters (.*) and (.*) and click log in  button$")
+	@When("^User enters (.*) and (.*) and click login button$")
 
 	public void login(String username, String password) 
 	{
@@ -45,25 +45,5 @@ public class LoginStepDefinition
 		hp.verifyApplicationinhome();
 	}
 
-	/*
-	 * @Given("Application is launched") public void application_is_launched() {
-	 * lp.verifyApplicationLaunchPage(); }
-	 * 
-	 * @When ("User click on the login button") public void
-	 * user_click_on_the_login_button() { lp.navigateToLoginPage(); }
-	 * 
-	 * @When("^User enters (.*) and(.*)$") public void
-	 * user_enters_name_and_password(String user, String password) {
-	 * login.enterthecredentials(user, password); }
-	 * 
-	 * 
-	 * 
-	 * @Then("User is navigated to the Home page") public void
-	 * user_navigate_homepage() { hp.verifyApplicationinhome(); }
-	 * 
-	 * @Then("Verify the login page have all fields") public void
-	 * verify_login_page_fields() { login.verifyField(); }
-	 * 
-	 * 
-	 */
+
 }

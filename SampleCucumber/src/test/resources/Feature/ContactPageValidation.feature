@@ -17,13 +17,13 @@
 ## (Comments)
 #Sample Feature Definition Template
 @tag
-Feature: Title of your feature
-  I want to use this template for my feature file
+Feature: Contact page validation
+
 
   @tag1
   Scenario Outline: Verify navigation to Contact page and fields in Contact page
     Given Application is launched
-    When User enters <id> and <password> and click log in  button
+    When User enters <id> and <password> and click login button
     Then User is navigated to the Home page
     When User clicks on Contact button
     Then Verify Create button and Export button is present in Contact page
@@ -31,6 +31,6 @@ Feature: Title of your feature
  
 
       Examples: 
-      |id|password| 
-      |jisminthomas@gmail.com|Password*1|
+      | id | password | 
+      | jisminthomas@gmail.com | January |
      
