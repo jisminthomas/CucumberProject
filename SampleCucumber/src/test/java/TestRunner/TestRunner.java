@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions;
 		
 		features = {"src/test/resources/Feature/"},
 		glue = {"StepDefinitions", "MyHooks"},
-		plugin = { "pretty", "html:target/firstreport.html"}
+		plugin = { "com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/TestExtent.html"}
 		
 		)
 

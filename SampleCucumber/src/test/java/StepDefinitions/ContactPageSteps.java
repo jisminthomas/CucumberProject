@@ -11,7 +11,7 @@ public class ContactPageSteps {
 	HomePage hp = new HomePage();
 	ContactPage cp = new ContactPage();
 	
-		
+		//when tag
 		@When("User clicks on Contact button")
 
 		public void contact_click() 
